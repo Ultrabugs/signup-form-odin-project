@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'Saint Carell Clean PERSONAL';
+    src: url('SaintCarellCleanPERSONAL-Regular.woff2') format('woff2'),
+        url('SaintCarellCleanPERSONAL-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Saint Carell PERSONAL';
+    src: url('/fonts/SaintCarellPERSONAL-Regular.woff2') format('woff2'),
+        url('/fonts/SaintCarellPERSONAL-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.signup-left{ 
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url('file.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+     
+}
+
+.odin-header {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.384);
+     
+}
+
+h1 {
+    font-family: 'Saint Carell PERSONAL';
+    color: black;
+}
+
+.odin-title {
+    color: white;;
+
+}
+
+.credits{
+     position: absolute;
+     bottom: 10px;;
+}
+
+.credits p {
+    font-size: 12px;
+    color: white;
+}
+
+.credits p > a {
+    color: white;
+}
+ 
+.signup-right {
+    height: 100vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.signup-header {
+    padding: 20px;
+    margin-top: 50px;
+    color: black;
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.signup-form{   display: flex;
+    
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+}
+
+input,
+textarea,
+select,
+button {
+  width: 150px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+form {
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+input:focus {
+    color: red;
+}
+
+button {
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #596D48;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #596d48af;
+}
+
+.signup-footer > p {
+    font-size: 14px;
+}
