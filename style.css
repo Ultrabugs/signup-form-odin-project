@@ -179,7 +179,8 @@ label {
 
 input {
     border: 1px solid #E5E7EB;
-    height: 20px;
+    height: 25px;
+    border-radius: 2px;
     width: 150px;
     font-size: 12px;
     padding-left: 5px;
